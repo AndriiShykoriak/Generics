@@ -1,9 +1,11 @@
+package generic;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class MyListModify<T extends Comparable<? super T>> {
-    List<T> list = new ArrayList<T>();
+    private List<T> list = new ArrayList<T>();
 
     public void add(T t) {
         list.add(t);
