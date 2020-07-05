@@ -1,4 +1,6 @@
-public class HighLowElementArray<T extends Comparable> {
+package generic;
+
+public class HighLowElementArray<T extends Comparable<T>> {
     private T[] array;
 
     public HighLowElementArray(T[] array) {
